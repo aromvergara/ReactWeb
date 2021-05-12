@@ -27,7 +27,7 @@ const IndexPage = ({ match, location, history }) => {
               <article className="services">
                 <div className="services-item services-item-01">
                   {/*img src="images/UXUIdesign.jpg" alt="UX/UI Design"*/}
-                  <a href="#" data-title="UX/UI Design"><img src="images/UXUIdesign.jpg" alt="UX/UI Design" /></a>
+                  <a target="_blank" href="https://dan-vergara.webflow.io/" data-title="UX/UI Design"><img src="images/UXUIdesign.jpg" alt="UX/UI Design" /></a>
                 </div>
                 <div className="services-item services-item-02">
                   {/*img src="images/webdevelopment.png" alt="Web Development"*/}
@@ -35,7 +35,7 @@ const IndexPage = ({ match, location, history }) => {
                 </div>
                 <div className="services-item services-item-03">
                   {/*img src="images/projectmanagement.jpg" alt="Project Management"*/}
-                  <a href="#" data-title="Project Management"><img src="images/projectmanagement.jpg" alt="Project Management" /></a>
+                  <a target="_blank" href="https://www.linkedin.com/in/dan-arom-vergara-castillo/" data-title="Project Management"><img src="images/projectmanagement.jpg" alt="Project Management" /></a>
                 </div>
               </article>
             </section>
