@@ -35,7 +35,7 @@ const IndexPage = ({ match, location, history }) => {
                 </div>
                 <div className="services-item services-item-03">
                   {/*img src="images/projectmanagement.jpg" alt="Project Management"*/}
-                  <a target="_blank" href="https://www.linkedin.com/in/dan-arom-vergara-castillo/" data-title="Project Management"><img src="images/projectmanagement.jpg" alt="Project Management" /></a>
+                  <a target="_blank"href="https://www.linkedin.com/in/dan-arom-vergara-castillo/" data-title="Project Management"><img src="images/projectmanagement.jpg" alt="Project Management" /></a>
                 </div>
               </article>
             </section>
