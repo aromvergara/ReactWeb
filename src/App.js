@@ -7,6 +7,7 @@ import IndexPage from "./pages/IndexPage";
 import Footer from "./component/Footer";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import DevProj from "./pages/DevProj";
 
 const App = () => {
         return (
@@ -25,6 +26,7 @@ const App = () => {
                   <Route path="/" exact component={IndexPage} />
                   <Route path="/about" component={About} />
                   <Route path="/contact" component={Contact} />
+                  <Route path="/devproj" component={DevProj} /> 
                 </Switch>
                 <Footer />
               </>

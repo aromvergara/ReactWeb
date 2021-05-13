@@ -57,5 +57,10 @@ const naviLinks = [
       active: "active",
       url: "/contact",
       hasSub: false
+    },
+    {
+      active: "active",
+      url: "/projects",
+      hasSub: false
     }
   ];

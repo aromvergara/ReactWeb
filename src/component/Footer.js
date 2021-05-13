@@ -9,7 +9,8 @@ export const Footer = ({ location, history, match }) => {
             <span>Let's connect:</span>
             <ul>
               <a href="https://www.linkedin.com/in/dan-arom-vergara-castillo/" target="_blank"><i className="fab fa-linkedin" /></a>
-              <a href="https://dan-vergara.webflow.io" target="_blank"><i className="fas fa-globe" /></a>
+              &nbsp;&nbsp;
+              <a href="https://github.com/aromvergara/" target="_blank"><i class="fab fa-github-square"/></a>
             </ul>
        </footer>
     </>

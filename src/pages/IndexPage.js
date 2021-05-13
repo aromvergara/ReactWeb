@@ -8,7 +8,7 @@ const IndexPage = ({ match, location, history }) => {
   return (
     <div className="App">
       <div className="wrapper">
-          
+
           <main>
             <section className="first-content">
               <div className="content-image">
@@ -27,15 +27,16 @@ const IndexPage = ({ match, location, history }) => {
               <article className="services">
                 <div className="services-item services-item-01">
                   {/*img src="images/UXUIdesign.jpg" alt="UX/UI Design"*/}
-                  <a target="_blank" href="https://dan-vergara.webflow.io/" data-title="UX/UI Design"><img src="images/UXUIdesign.jpg" alt="UX/UI Design" /></a>
+                  <a onClick={()=> window.open("https://dan-vergara.webflow.io/", "_blank")} href="/" data-title="UX/UI Design"><img src="images/UXUIdesign.jpg" alt="UX/UI Design" /></a>
+                  {/*<td onClick={()=> window.open("https://dan-vergara.webflow.io/", "_blank")}>UX/UI Design</td>*/}
                 </div>
                 <div className="services-item services-item-02">
                   {/*img src="images/webdevelopment.png" alt="Web Development"*/}
-                  <a href="#" data-title="Web Development"><img src="images/webdevelopment.png" alt="Web Development" /></a>
+                  <a onClick={()=> history.push('/DevProj')} href="/DevProj" data-title="Web Development"><img src="images/webdevelopment.png" alt="Web Development" /></a>
                 </div>
                 <div className="services-item services-item-03">
                   {/*img src="images/projectmanagement.jpg" alt="Project Management"*/}
-                  <a target="_blank"href="https://www.linkedin.com/in/dan-arom-vergara-castillo/" data-title="Project Management"><img src="images/projectmanagement.jpg" alt="Project Management" /></a>
+                  <a onClick={()=> window.open("https://www.linkedin.com/in/dan-arom-vergara-castillo/", "_blank")} href="/" data-title="Project Management"><img src="images/projectmanagement.jpg" alt="Project Management" /></a>
                 </div>
               </article>
             </section>
