@@ -20,7 +20,7 @@ const DevProj = () => {
                 </div>
                 <div className="projects-item projects-item-03">
                   {/*img src="images/projectmanagement.jpg" alt="Project Management"*/}
-                  <a onClick={()=> window.open("https://cors-anywhere.herokuapp.com/", "_blank")} onClick={()=> window.open("https://weather-app-ciccc.herokuapp.com", "_blank")} href="/DevProj" data-title="Weather App"><img src="images/weatherapp.png" alt="Weather App" /></a>
+                  <a onClick={()=>  window.open("https://weather-app-ciccc.herokuapp.com", "_blank")}  href="/DevProj" data-title="Weather App"><img src="images/weatherapp.png" alt="Weather App" /></a>
                 </div>
               </article>
             </section>
